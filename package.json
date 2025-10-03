@@ -1,0 +1,25 @@
+{
+  "name": "herbchain",
+  "private": true,
+  "version": "0.1.0",
+  "description": "HerbChain monorepo: Farmer, Consumer, Admin apps + Backend + Shared packages",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "build": "echo 'Use per-package build scripts'",
+    "dev": "echo 'Run per-app dev servers'",
+    "lint": "echo 'Add ESLint later'",
+    "typecheck": "tsc -p tsconfig.base.json --noEmit"
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9.0.0"
+  },
+  "packageManager": "npm@10.9.0",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
